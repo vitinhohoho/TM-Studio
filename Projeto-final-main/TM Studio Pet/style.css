@@ -1,0 +1,238 @@
+@import url(./CSS/footer.css);
+@import url(./CSS/header.css);
+@import url(./CSS/main.css);
+
+@font-face {
+    font-family: 'disney';
+    src: url(./assets/Cream\ Beige.otf);
+    src: url(./assets/Cream\ Beige.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Media Queries para tornar o site responsivo */
+
+/* Para tablets */
+@media (max-width: 1420px) {
+    body {
+        font-size: 12px;
+    }
+
+    header h1, #inicio h2, #categorias h2 {
+        font-size: 2.5rem;
+    }
+
+    .img-media {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .img-media nav a{
+        
+    }
+
+    .navegacao {
+        flex-direction: column;
+        height: auto;
+        font-size: 1.2rem;
+    }
+
+    #inicio {
+        flex-direction: column;
+        padding: 1rem;
+        width: 100%;
+    }
+
+    .img-media nav, #inicio img, .faq-item, #divirta-se, video, .formu, form, .descrição, p, input, textarea, .mapa {
+        width: 100%;
+    }
+
+    .descricao {
+        width: 100%;
+        font-size: 1.4rem;
+    }
+
+    .produtos2 img {
+        width: 5rem;
+        gap: 2rem;
+        padding-top: 3rem;
+    }
+    
+    #contatos {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .formulario {
+        width: 100%;
+        padding: 1.5rem;
+        height: auto;
+    }
+
+    #contatos h2 {
+        font-size: 1.4rem;
+        width: 100%;
+    }
+
+}
+
+/* Para smartphones */
+@media (max-width: 1024px) {
+    body {
+        font-size: 12px;
+    }
+
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    .img-media {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .img-media nav {
+        gap: 3rem;
+        width: 100%;
+    }
+
+    .navegacao {
+        flex-direction: column;
+        height: auto;
+        font-size: 1.2rem;
+    }
+
+    #inicio {
+        flex-direction: column;
+        padding: 1rem;
+        width: 100%;
+        gap: 2rem;
+    }
+
+    #inicio img {
+        height: 25rem;
+        width: 100%;
+    }
+
+    #inicio h2 {
+        font-size: 2.5rem;
+    }
+
+    .descricao {
+        width: 100%;
+        font-size: 1.4rem;
+    }
+
+    #categorias {
+        height: 35rem;
+    }
+
+    .produtos2 {
+        padding-top: 7rem;
+        gap: 4rem;
+    }
+
+    .produtos2 img {
+        width: 5rem;
+        gap: 2rem;
+        padding-top: 1rem;
+
+    }
+
+    .produtos2{
+        width: 100%;
+    }
+
+    #categorias h2 {
+        font-size: 2.6rem;
+    }
+
+    .faq-item {
+        width: 100%;
+    }
+
+    #divirta-se {
+        width: 100%;
+    }
+
+
+    #divirta-se h2 {
+        font-size: 4rem;
+    }
+
+    video {
+        height: auto;
+        width: 100%;
+    }
+
+    #contatos {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 10rem;
+    }
+
+    .formulario {
+        width: 100%;
+        padding: 1.5rem;
+        height: auto;
+    }
+
+    .formu {
+        width: 100%;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    .descrição {
+        width: 100%;
+    }
+
+    p {
+        width: 100%;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    input,
+    textarea {
+        width: 30rem;
+    }
+
+
+    .whats {
+        bottom: 1rem;
+        right: 1rem;
+    }
+
+    #contatos h2 {
+        font-size: 1.4rem;
+        width: 100%;
+    }
+
+    .mapa {
+        width: 33rem;
+    }
+}

@@ -1,0 +1,259 @@
+#carouselExampleIndicators {
+    width: 100%;
+    height: auto;
+}
+
+#inicio {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
+    align-items: center;
+    gap: 20rem;
+}
+
+#inicio h2 {
+    font-family: 'disney';
+    font-size: 5rem;
+    color: black;
+}
+
+.descrição {
+    width: 55rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.descrição p {
+    display: flex;
+    text-align: left;
+    color: black;
+    padding-top: 3rem;
+}
+
+.perguntas {
+    width: 100%;
+    margin: 5rem 0;
+}
+
+.perguntas h1 {
+    font-family: 'disney';
+    font-size: 4rem;
+    color: black;
+    text-align: center;
+    padding-bottom: 4rem;
+}
+
+.faq-item {
+    margin-bottom: 2rem;
+    width: 120rem;
+    font-size: 2rem;
+}
+
+.faq-item input {
+    display: none;
+}
+
+.faq-item label {
+    font-weight: bold;
+    display: block;
+    padding: 1.5rem;
+    background-color: orange;
+    border: .2rem solid #ddd;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.faq-item label:hover {
+    background-color: #f1f1f1;
+}
+
+.faq-item p {
+    display: none;
+    padding: 1rem;
+    background-color: white;
+    color: black;
+    border: 1px solid grey;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+}
+
+.faq-item input:checked+label+p {
+    display: block;
+}
+
+#divirta-se {
+    width: 100%;
+    padding-bottom: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: orange;
+}
+
+#divirta-se h2 {
+    padding: 5rem;
+    font-family: 'disney';
+    font-size: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+#categorias {
+    width: 100%;
+    height: 50rem;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    padding-top: 5rem;
+    gap: 20rem;
+}
+
+#categorias h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'disney';
+    font-size: 5rem;
+    color: orange;
+}
+
+.produtos {
+    width: 100%;
+    height: 20rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.produtos2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 11rem;
+    gap: 25rem;
+}
+
+#categorias img {
+    transition: 1s;
+}
+
+#categorias img:hover {
+    transform: scale(1.5);
+}
+
+.formulario {
+    background-color: white;
+    padding: 3rem;
+    height: 58rem;
+    display: flex;
+    justify-content: start;
+    border-radius: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+.formu {
+    margin: 2rem 0;
+    width: 55rem;
+    font-weight: 600;
+}
+
+.formu h1 {
+    margin-top: 5rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: orange;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+    font-size: 16px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 16px;
+    color: #34495e;
+    margin-bottom: 5px;
+    display: block;
+}
+
+input,
+textarea {
+    width: 50rem;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input:focus,
+textarea:focus {
+    border-color: orange;
+    outline: none;
+}
+
+button {
+    padding: 12px 20px;
+    background-color: orange;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+
+#contatos {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    padding-bottom: 5rem;
+}
+
+#contatos h2 {
+    display: flex;
+    width: 60rem;
+    justify-content: center;
+    font-family: 'disney';
+    font-size: 5rem;
+    color: white;
+}
+
+.mapa {
+    width: 60rem;
+    height: 58rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+
+.mapa {
+    border-radius: 2rem;
+}

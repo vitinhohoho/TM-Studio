@@ -25,10 +25,9 @@ body {
     align-items: center;
 }
 
-/* Media Queries para tornar o site responsivo */
 
 /* Para tablets */
-@media (max-width: 1420px) {
+@media (max-width: 1240px) {
     body {
         font-size: 12px;
     }
@@ -47,9 +46,8 @@ body {
     }
 
     .navegacao {
-        flex-direction: column;
         height: auto;
-        font-size: 1.2rem;
+        font-size: 1.8rem;
     }
 
     #inicio {
@@ -77,6 +75,15 @@ body {
         width: 100%;
         display: flex;
         flex-direction: column;
+        align-items: center;
+    }
+
+    #faq{
+        width: 80%;
+    }
+
+    .perguntas{
+        width: 100%;
     }
 
     .formulario {
@@ -90,11 +97,18 @@ body {
         width: 100%;
     }
 
+    form {
+    width: 100vw;
+    }
+    .mapa {
+    width: 90vw;
+    }
 }
 
 /* Para smartphones */
-@media (max-width: 1024px) {
+@media (max-width: 999px) {
     body {
+        overflow-x: auto;
         font-size: 12px;
     }
 
@@ -108,12 +122,16 @@ body {
     }
 
     .img-media nav {
-        gap: 3rem;
+        gap: 5rem;
+        width: 100%;
+    }
+
+    .img-media nav p {
+        display: none;
         width: 100%;
     }
 
     .navegacao {
-        flex-direction: column;
         height: auto;
         font-size: 1.2rem;
     }
@@ -140,23 +158,20 @@ body {
     }
 
     #categorias {
-        height: 35rem;
+        height: 50rem;
     }
 
     .produtos2 {
+        flex-wrap: wrap;
         padding-top: 7rem;
         gap: 4rem;
     }
 
     .produtos2 img {
-        width: 5rem;
+        width: 3rem;
         gap: 2rem;
         padding-top: 1rem;
 
-    }
-
-    .produtos2{
-        width: 100%;
     }
 
     #categorias h2 {
@@ -184,14 +199,20 @@ body {
     #contatos {
         width: 100%;
         display: flex;
-        flex-direction: column;
-        align-items: center;
         justify-content: center;
         padding-bottom: 10rem;
     }
 
-    .formulario {
+    #faq{
+        width: 90%
+    }
+
+    .perguntas{
         width: 100%;
+    }
+
+    .formulario {
+        width: 90vw;
         padding: 1.5rem;
         height: auto;
     }
@@ -201,7 +222,7 @@ body {
     }
 
     form {
-        width: 100%;
+        width: 90vw;
     }
 
     .descrição {
@@ -212,27 +233,55 @@ body {
         width: 100%;
     }
 
-    input {
-        width: 100%;
-    }
-
-    input,
-    textarea {
-        width: 30rem;
-    }
-
-
-    .whats {
-        bottom: 1rem;
-        right: 1rem;
-    }
-
     #contatos h2 {
-        font-size: 1.4rem;
+        font-size: 2.6rem;
         width: 100%;
     }
 
     .mapa {
-        width: 33rem;
+        width: 90vw;
     }
+
+    .nav-menu {
+        display: none;
+        flex-direction: column;
+        width:100%;
+        background-color: orange;
+        position: absolute;
+        top: 13.7rem;
+        left: 0;
+        z-index: 1000;
+      }
+    
+      .nav-menu a {
+        width: 100%;
+        text-align: left;
+        padding: 15px;
+        border-top: 1px solid #444;
+      }
+    
+      .menu-mobile {
+        display: flex; 
+      }
+
+      .menu-mobile.toggle div:nth-child(1) {
+        transform: rotate(45deg);
+        position: relative;
+        top: 6px;
+      }
+    
+      .menu-mobile.toggle div:nth-child(2) {
+        opacity: 0;
+      }
+    
+      .menu-mobile.toggle div:nth-child(3) {
+        transform: rotate(-45deg);
+        position: relative;
+        top: -6px;
+      }
+    
+      .nav-menu.show {
+        display: flex; 
+      }
 }
+

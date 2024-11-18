@@ -14,7 +14,7 @@ O projeto contém as seguintes seções principais:
 
 ## 🖥️ Tecnologias Utilizadas
 
-- **HTML5**: Estrutura do site.
+- **HTML5**: Estrutura do site. 
 - **CSS3**: Estilização e design responsivo.
 - **JavaScript**: Interatividade, como o menu responsivo.
 - **Fontes Customizadas**: Inclui a fonte `Cream Beige` para um design exclusivo.
@@ -24,12 +24,32 @@ O projeto contém as seguintes seções principais:
 O site foi projetado para ser acessível e funcional em diferentes dispositivos:
 
 - **Celulares**
+
+<div align=center>
+    <img src="./Projeto-final-main/TM Studio Pet/assets/iPhone-SE-2016-127.0.0.1.png"width=200>
+    </div>
+    
+
+
 - **Tablets**
+
+<div align=center>
+    <img src="./Projeto-final-main/TM Studio Pet/assets/iPad-PRO-11-127.0.0.1.png"
+    width=400>
+</div>
+    
+
 - **Notebooks**
+
+<div align=center>
+    <img src="./Projeto-final-main/TM Studio Pet/assets/Macbook-Air-127.0.0.1.png"width=700>
+</div>
+
+
 - **Desktops**
 
 ### Ajustes Responsivos Incluem:
 
-- Menu hamburguer para dispositivos menores.
+- Menu para dispositivos menores.
 - Reorganização de elementos para melhor visualização em telas menores.
 - Ajuste dinâmico de fontes, margens e espaçamentos.

@@ -3,13 +3,33 @@
     height: auto;
 }
 
+#botao-whatsapp {
+    position: fixed;
+    bottom: 20px; 
+    right: 20px;  
+    z-index: 1000; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #botao-whatsapp img {
+    width: 60px;  
+    height: 60px; 
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #botao-whatsapp img:hover {
+    transform: scale(1.1);
+  }
+  
 #inicio {
     width: 100%;
     display: flex;
     justify-content: center;
     padding: 5rem;
     align-items: center;
-    gap: 20rem;
+    gap: 8rem;
 }
 
 #inicio h2 {
@@ -29,6 +49,7 @@
 }
 
 .descrição p {
+    font-size: 2rem;
     display: flex;
     text-align: left;
     color: black;
@@ -36,7 +57,7 @@
 }
 
 .perguntas {
-    width: 100%;
+    width: 90rem;
     margin: 5rem 0;
 }
 
@@ -50,7 +71,7 @@
 
 .faq-item {
     margin-bottom: 2rem;
-    width: 120rem;
+    width: 100%;
     font-size: 2rem;
 }
 
@@ -138,10 +159,11 @@
     display: flex;
     justify-content: center;
     padding-top: 11rem;
-    gap: 25rem;
+    gap: 18rem;
 }
 
 #categorias img {
+    width: 10rem;;
     transition: 1s;
 }
 

@@ -12,6 +12,11 @@ O projeto contém as seguintes seções principais:
 - **Divirta-se**: Seção interativa para entretenimento.
 - **Contatos**: Formulário de contato e localização.
 
+## 🎨 Cores e Fontes ##
+
+- **Fontes**: Cream Beige.
+- **Cores**: Black, White e Orange.
+
 ## 🖥️ Tecnologias Utilizadas
 
 - **HTML5**: Estrutura do site. 
